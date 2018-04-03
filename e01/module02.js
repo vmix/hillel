@@ -1,0 +1,1 @@
+console.log('This is hello2 from Module02');
