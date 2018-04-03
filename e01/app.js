@@ -1,7 +1,13 @@
-const mod01 = require('./module01');
-const mod02 = require('./module02');
-const mod03 = require('./module03');
+const person = require('./module01');
+require('./module02');
+const square = require('./module03');
 
-console.log('Name: ' + mod01.pers1.name + ' has age: ' + mod01.pers1.age);
+// first method
+console.log('\nName: ' + person.john.name + ' has age: ' + person.john.age);
 
+// second method
 console.log('User\'s height is ' + User.height);
+
+// third method
+let mySquare = square(3);
+console.log(`This area is: ${mySquare.area()} sq. meters`);
