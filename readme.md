@@ -1,4 +1,4 @@
-# readme.md #
+# Homeworks #
 
 ## Homework 01 ##
 
@@ -11,7 +11,7 @@ or
 
 > node app
 
-**Third method** is described in experimental file format .mjs and to run one we can use latest version of node.js. We manage several versions of node.js with 'n' manager.
+**Third method** is described in experimental file format .mjs and to run one we can use the latest version of node.js. We control several versions of node.js with 'n' manager.
 
 > sudo n latest
 
