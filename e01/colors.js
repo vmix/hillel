@@ -6,6 +6,8 @@ const colors = require('colors');
 console.log('Our platform is: '.bgRed + chalk.red(os.platform()));
 console.log('Release is: ' + chalk.green(os.release()));
 console.log('Architecture: ' + chalk.yellow(os.arch()));
+console.log('Endianness: ' + os.endianness().bgGreen);
+console.log(os.networkInterfaces());
 console.log(chalk.rgb(255,127,127)('CPU Info is: '));
 console.log(os.cpus());
 console.log(chalk.yellow('Free memory: ') + chalk.green(os.freemem()) + ' of ' + chalk.blue(os.totalmem()) + ' total memory');
