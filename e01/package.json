@@ -7,5 +7,10 @@
     "start": "node app.js"
   },
   "author": "Viacheslav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "colors": "^1.2.1",
+    "minimist": "^1.2.0"
+  }
 }
