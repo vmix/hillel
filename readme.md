@@ -25,3 +25,6 @@ In console we will see the following:
 _`This is hello3 from Module03`_
 
 _`This area is: 9 sq. meters`_
+
+Packages colors ![#ff00ff](https://placehold.it/15/ff00ff/000000?text=+) and chalk ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) were added to output in console in different colors:
+
