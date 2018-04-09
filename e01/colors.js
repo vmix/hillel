@@ -1,4 +1,3 @@
-const parseArgs = require('minimist');
 const os = require('os');
 const chalk = require('chalk');
 const colors = require('colors');

@@ -4,7 +4,8 @@
   "description": "Homework 01 for Node.js course",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "start3" : "node --experimental-modules app03"
   },
   "author": "Viacheslav",
   "license": "ISC",
