@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "start3" : "node --experimental-modules app03"
+    "start3" : "node --experimental-modules app03",
+    "first-start": "NODE_ENV='dev' PORT=1234 node parse user=Viaceslav",
+    "second-start": "NODE_ENV='test' PORT=2345 node parse user=Jane",
+    "third-start": "NODE_ENV='prod' PORT=3456 node parse user=Kate"
   },
   "author": "Viacheslav",
   "license": "ISC",
